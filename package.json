@@ -8,9 +8,16 @@
     "date-fns": "^4.1.0",
     "frappe-gantt": "^1.0.3",
     "lucide-react": "^0.526.0",
+    "node": "^20.19.4",
     "numeral": "^2.0.6",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
-    "rechart": "^0.0.1"
+    "rechart": "^0.0.1",
+    "recharts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/numeral": "^2.0.5",
+    "@types/uuid": "^10.0.0"
   }
 }
