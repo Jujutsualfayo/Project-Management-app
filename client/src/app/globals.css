@@ -20,13 +20,6 @@
   }
 }
 
-/* 🌐 Theme Variables (can be used in Tailwind config if needed) */
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
 /* 🖋️ Base Styling */
 body {
