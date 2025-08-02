@@ -1,4 +1,4 @@
-import Modal from "@/components/Modal";
+import Modal from "@/app/components/Modal";
 import { Priority, Status, useCreateTaskMutation } from "@/state/api";
 import React, { useState } from "react";
 import { formatISO } from "date-fns";
@@ -21,7 +21,6 @@ const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
   const [authorUserId, setAuthorUserId] = useState("");
   const [assignedUserId, setAssignedUserId] = useState("");
   const [projectId, setProjectId] = useState("");
-
   const handleSubmit = async () => {
     if (!title || !authorUserId || !(id !== null || projectId)) return;
 
