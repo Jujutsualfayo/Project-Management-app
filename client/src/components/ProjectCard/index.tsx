@@ -19,3 +19,6 @@ const ProjectCard = ({ project }: Props) => {
 export default ProjectCard;
 
 
+
+
+

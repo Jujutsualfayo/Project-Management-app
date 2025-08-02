@@ -168,3 +168,6 @@ const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
 export default ModalNewTask;
 
 
+
+
+

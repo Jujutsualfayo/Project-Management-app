@@ -1,4 +1,4 @@
-import Modal from "@/app/components/Modal";
+import Modal from "@/components/Modal";
 import { useCreateProjectMutation } from "@/state/api";
 import React, { useState } from "react";
 import { formatISO } from "date-fns";
@@ -91,5 +91,8 @@ const ModalNewProject = ({ isOpen, onClose }: Props) => {
 };
 
 export default ModalNewProject;
+
+
+
 
 

@@ -10,7 +10,7 @@ import {
 import React from "react";
 import { useAppSelector } from "../redux";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
-import Header from "@/app/components/Header";
+import Header from "@/components/Header";
 import {
   Bar,
   BarChart,
@@ -160,5 +160,8 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+
 
 

@@ -22,3 +22,6 @@ const Header = ({ name, buttonComponent, isSmallText = false }: Props) => {
 export default Header;
 
 
+
+
+

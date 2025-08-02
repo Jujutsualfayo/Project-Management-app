@@ -1,9 +1,9 @@
 "use client";
 
 import { useAppSelector } from "@/app/redux";
-import Header from "@/app/components/Header";
-import ModalNewTask from "@/app/components/ModalNewTask";
-import TaskCard from "@/app/components/TaskCard";
+import Header from "@/components/Header";
+import ModalNewTask from "@/components/ModalNewTask";
+import TaskCard from "@/components/TaskCard";
 import { dataGridClassNames, dataGridSxStyles } from "@/lib/utils";
 import {
   Priority,
@@ -158,5 +158,8 @@ const ReusablePriorityPage = ({ priority }: Props) => {
 };
 
 export default ReusablePriorityPage;
+
+
+
 
 
