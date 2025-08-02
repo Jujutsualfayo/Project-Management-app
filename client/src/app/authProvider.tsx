@@ -62,3 +62,4 @@ const AuthProvider = ({ children }: any) => {
 
 export default AuthProvider;
 
+

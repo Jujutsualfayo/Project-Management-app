@@ -28,3 +28,4 @@ const UserCard = ({ user }: Props) => {
 
 export default UserCard;
 
+

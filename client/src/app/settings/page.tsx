@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+import Header from "@/app/components/Header";
 import React from "react";
 
 const Settings = () => {
@@ -39,4 +39,5 @@ const Settings = () => {
 };
 
 export default Settings;
+
 

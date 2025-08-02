@@ -95,3 +95,4 @@ const Timeline = ({ id, setIsModalNewTaskOpen }: Props) => {
 
 export default Timeline;
 
+

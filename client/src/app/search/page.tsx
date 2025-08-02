@@ -1,8 +1,8 @@
 "use client";
 
-import Header from "@/components/Header";
+import Header from "@/app/components/Header";
 import ProjectCard from "@/components/ProjectCard";
-import TaskCard from "@/components/TaskCard";
+import TaskCard from "@/app/components/TaskCard";
 import UserCard from "@/components/UserCard";
 import { useSearchQuery } from "@/state/api";
 import { debounce } from "lodash";
@@ -73,4 +73,5 @@ const Search = () => {
 };
 
 export default Search;
+
 
