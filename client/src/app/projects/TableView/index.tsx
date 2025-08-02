@@ -103,3 +103,4 @@ const TableView = ({ id, setIsModalNewTaskOpen }: Props) => {
 };
 
 export default TableView;
+

@@ -2,7 +2,7 @@
 
 import { useAppSelector } from "@/app/redux";
 import Header from "@/components/Header";
-import ModalNewTask from "@/components/ModalNewTask";
+import ModalNewTask from "@/app/components/ModalNewTask";
 import TaskCard from "@/components/TaskCard";
 import { dataGridClassNames, dataGridSxStyles } from "@/lib/utils";
 import {
@@ -158,3 +158,4 @@ const ReusablePriorityPage = ({ priority }: Props) => {
 };
 
 export default ReusablePriorityPage;
+

@@ -112,3 +112,4 @@ const TabButton = ({ name, icon, setActiveTab, activeTab }: TabButtonProps) => {
 };
 
 export default ProjectHeader;
+
