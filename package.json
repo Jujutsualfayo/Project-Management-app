@@ -9,6 +9,7 @@
     "frappe-gantt": "^1.0.3",
     "lucide-react": "^0.526.0",
     "node": "^20.19.4",
+    "npx": "^10.2.2",
     "numeral": "^2.0.6",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
